@@ -18,7 +18,7 @@
 <body>
 
     <div class="bg-gradient-to-b from-sky-500 to-indigo-500 h-80 bg-black">
-        <nav class="navbar  h-16 grid grid-flow-col justify-between items-center">
+        <nav class="navbar h-16 grid grid-flow-col justify-between items-center ">
             <div>
                 <img src="./Img/plogo.png" class=" mx-10 my-3 w-32 h-auto" alt="Logo">
             </div>
@@ -32,13 +32,41 @@
                     </li>
                     <li
                         class="text-white text lg font-semibold text-center py-2 px-2 hover:bg-sky-400 rounded-xl cursor-pointer">
-                        <i class="fa-solid fa-right-to-bracket mx-3"></i>Login</li>
+                        <i class="fa-solid fa-right-to-bracket mx-3"></i>Login
+                    </li>
                     <li
                         class="text-white text lg font-semibold text-center py-2 px-2 hover:bg-sky-400 rounded-xl cursor-pointer">
-                        <i class="fa-solid fa-user-plus mx-3"></i>Sign Up</li>
+                        <i class="fa-solid fa-user-plus mx-3"></i>Sign Up
+                    </li>
                 </ol>
             </div>
         </nav>
+        <div class="hero flex justify-between mt-10 mx-4 my-5 ">
+            <div class="h-80 z-10 w-96 text-white">
+                <h1 class=" text-6xl ">Make website like a pro.</h1>
+                <p class="mt-5 font-semibold text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p class="mt-5 text-sm">Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="h-80 z-10 w-96 bg-white drop-shadow-2xl shadow-black">
+                <div class="line w-full bg-blue-700 h-1"></div>
+                <p class="text-center text-2xl font-serif mt-5 ">Sign Up!</p>
+                <div class="mt-5 grid grid-flow-row gap-y-3 grid-cols-2 grid-rows-3 w-96 ">
+                    <input class="border mx-2 px-3 py-2  border-gray-500 rounded-sm focus-visible:outline-none"
+                        type="text" placeholder="First Name">
+                    <input class="border mx-2 px-3 py-2  border-gray-500 rounded-sm focus-visible:outline-none"
+                        type="text" placeholder="Last Name">
+                    <input
+                        class="border mx-2 px-3 py-2  border-gray-500 rounded-sm focus-visible:outline-none col-span-2"
+                        type="email" placeholder="Email">
+                    <input class="border mx-2 px-3 py-2  border-gray-500 rounded-sm focus-visible:outline-none"
+                        type="password" placeholder="Password">
+                    <input class="border mx-2 px-3 py-2  border-gray-500 rounded-sm focus-visible:outline-none"
+                        type="password" placeholder="Confirm password">
+                </div>
+                <button class="px-20 ml-24 mt-5 py-3 bg-indigo-400 rounded-full text-white my-5">Submit</button>
+
+            </div>
+        </div>
     </div>
     <div style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
             style="height: 100%; width: 100%;">
@@ -47,7 +75,6 @@
             </path>
         </svg></div>
     <main>
-
     </main>
     <script src="./index.js"></script>
 </body>
